@@ -357,51 +357,29 @@ html {
   color: #1b2939;
 }
 
-/* .share-button {
-  min-width: 360px;
-  max-width: 1032px;
-  background: linear-gradient(90deg, #ff5f6d, #ff7eb3, #7F00FF, #00C9FF);
-  background-size: 300% 100%;
-  border: none;
-  color: white;
-  padding: 10px 30px;
-  font-size: 16px;
-  font-family: sans-serif;
-  border-radius: 25px;
-  cursor: pointer;
-  transition: background-position 0.4s ease;
-}
-
-.share-button:hover {
-  background-position: right center;
-} */
-
-.share-button {
+.cta-form-btn {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 24px 32px;
-  width: 420px;
   min-width: 263px;
   max-width: 420px;
-  height: 72px;
-  background: linear-gradient(
-    80.23deg,
-    #e8652d -4.25%,
-    #e82dd2 28.23%,
-    #a650ff 69.35%,
-    #009dff 116.49%
-  );
+  background: linear-gradient(80.23deg, #E8652D -4.25%, #E82DD2 28.23%, #A650FF 69.35%, #009DFF 116.49%);
   border-radius: 16px;
-
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
-  color: #ffffff;
-
+  color: #FFFFFF;
+  cursor: pointer;
+  width: 100%;
   transition: 200ms ease-in;
+}
+
+.cta-form-btn:hover {
+  background: linear-gradient(88.08deg, #009DFF 3.71%, #A650FF 38.56%, #E84980 68.28%, #E8652D 91.86%);
+  box-shadow: 0px 6px 12px rgba(172, 73, 245, 0.3);
 }
